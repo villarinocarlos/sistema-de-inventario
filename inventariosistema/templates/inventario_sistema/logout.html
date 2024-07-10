@@ -1,0 +1,10 @@
+{% extends "../layout.html" %}
+{% load crispy_forms_tags %} 
+{% load static %}
+{% block content %}
+<div class="content-section">
+    <small class="text-muted">
+        Has sido desconectado. <a href="{% url 'login' %}">Conéctate de nuevo</a>
+    </small>
+</div>
+{% endblock %}
